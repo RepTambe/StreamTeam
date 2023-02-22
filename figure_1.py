@@ -72,7 +72,7 @@ slope = calculate_slope(runoff_coeffs)
 
 
 
-with open('Basin_Precip_TS_for_model/basin_1234150.csv') as file:
+with open(https://byu.box.com/s/rkvltad09y6jk6k40si0ve8sm6ub5156) as file:
     precip_df = pd.read_csv(file)
 
     # print(precip_df)
