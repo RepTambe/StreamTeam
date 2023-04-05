@@ -49,7 +49,7 @@ https://byu.box.com/s/dtzlt4ma2vuyowqws290imb1xzr1fvaq
 
 Figure 1(03/23)
 
-Check Figure1.py for code:
+Check Figure_1.py for code:
 https://github.com/RepTambe/StreamTeam/blob/main/figure_1.py
 
 ![image](https://user-images.githubusercontent.com/56054621/230137536-8b6f8090-89c2-49bc-bb32-c337eeca6b80.png)
@@ -57,7 +57,11 @@ https://github.com/RepTambe/StreamTeam/blob/main/figure_1.py
 
 Figure 2(03/08/23)
 
-Figure2
+Check Figure_2.py for code:
+https://github.com/RepTambe/StreamTeam/blob/main/figure_2.py
 
 ![image](https://user-images.githubusercontent.com/56054621/230138439-e754f275-2344-45da-8620-3477b13fb246.png)
+
+
+Figure 3(04/01/23)
 
