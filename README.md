@@ -41,12 +41,16 @@ matplotlib
 matplotlib.pyplot
 
 To install dependencies:
-1. Install pip
-  python -m pip install -U pip
   
-2. Install "dependecy"
-  python -m pip install -U matplotlib
-  You can replace matplotlib with any dependency package.
+  1.
+  
+    Install pip
+    python -m pip install -U pip
+  
+  2. 
+    Install "dependecy"
+    python -m pip install -U matplotlib
+    You can replace matplotlib with any dependency package.
   
 
 
@@ -54,26 +58,26 @@ The data is contained in BoxDrive. The files are a few GBS. To avoid downloading
 
 To get the files on your local machine follow these steps:
 
-1.
-follow this link to get access to the files from your box account. 
-https://byu.box.com/s/oqvmb58twh5c84xbvg7egecnlhdw8syr
+  1. follow this link to get access to the files from your box account. 
+    
+    https://byu.box.com/s/oqvmb58twh5c84xbvg7egecnlhdw8syr
 
-2.
-Once the files are shared on your Box, download the box app onto your personal computer using this link. Make sure you select the correct operating system of your device.
-https://www.box.com/resources/downloads
+  2 .Once the files are shared on your Box, download the box app onto your personal computer using this link. Make sure you select the correct operating system of your      device.
+    
+    https://www.box.com/resources/downloads
 
-3.
-Once you get the app download, check your file explorer for the box tab. Click the tab and the folder named "Stream Team Dream Team" should be present. Click the folder and the databases will be there. This image below is an example of the boxapp in windows file explorer.
+  3. Once you get the app download, check your file explorer for the box tab. Click the tab and the folder named "Stream Team Dream Team" should be present. Click the       folder and the databases will be there. This image below is an example of the boxapp in windows file explorer.
+    
 
 ![image](https://user-images.githubusercontent.com/56054621/230814321-1ea02fab-b1ec-4b22-a50c-51216842cbd3.png)
 
-4.
-To get the files to your IDE of choice, you have to copy the direct path from file Explorer.
-From the file explorer, right click on the file you want
-Click on properties.
-Properties contains the direct path minus the file name. You will need to copy the direct path and write in the file name when you want to read the csv's in your code.
+  4.
+    To get the files to your IDE of choice, you have to copy the direct path from file Explorer.
+    From the file explorer, right click on the file you want
+    Click on properties.
+    Properties contains the direct path minus the file name. You will need to copy the direct path and write in the file name when you want to read the csv's in your code.
 
-Here's a picture of what it should look like when you click properties. 
+    Here's a picture of what it should look like when you click properties. 
 ![image](https://user-images.githubusercontent.com/56054621/230815828-539eb2cd-8214-4cf5-83ec-7808b8160876.png)
 
 
