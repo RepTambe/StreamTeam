@@ -18,13 +18,19 @@ we will identify characteristics common in basins with highly changing runoffs t
 Results: What we're looking for
 
 -Name general basin characteristics
+
 -What kinds of basins tend to have highly changing runoff ratios? for example, certain soil types, certain precipitation levels, etc
+
 -Identify cities/geographical areas based on above basin characteristics
+
 -Show which parts of the world are most affected by changing runoff ratios
+
 -Predict areas that are likely to be susceptible to changing runoff ratios in the future
 figures
+
 -Box and whisker plot for statistically significant basin characteristics
 world (or US) map marking percent change of runoff ratios per location
+
 -Empirical distribution for the prob of local spatial similarity in streamflow metric
 
 
@@ -34,11 +40,12 @@ Requirements:
 All the code is in python. It was orignially coded in the PyCharm IDE and it runs on Windows and MAC machines.
 
 The package dependencies include:
-pandas
-numpy
-sklearn
-matplotlib
-matplotlib.pyplot
+
+    pandas
+    numpy
+    sklearn
+    matplotlib
+    matplotlib.pyplot
 
 To install dependencies:
   
@@ -77,21 +84,26 @@ To get the files on your local machine follow these steps:
     Click on properties.
     Properties contains the direct path minus the file name. You will need to copy the direct path and write in the file name when you want to read the csv's in your code.
 
-    Here's a picture of what it should look like when you click properties. 
+   Here's a picture of what it should look like when you click properties. 
 ![image](https://user-images.githubusercontent.com/56054621/230815828-539eb2cd-8214-4cf5-83ec-7808b8160876.png)
 
 
-In figure_1.py, the full path needs to be changed to your full path on line 19
-For line 25 - 35, all the files in parentheses need to be changed to the full path name. 
+In figure_1.py: 
+     the full path needs to be changed to your full path on line 19
+     For line 25 - 35, all the files in parentheses need to be changed to the full path name. 
 
-In home.py, the full path needs to be changed to your full path on line 19
-For line 27 - 35, all the files in parentheses need to be changed to the full path name.
+In home.py:
+    the full path needs to be changed to your full path on line 19
+    For line 27 - 35, all the files in parentheses need to be changed to the full path name.
 
-Make sure you swith the backslashes to forward slahes. 
+Make sure you swith the backslashes to forward slahes!!!!!! 
 
 Here's an example:
 
-df_catchment = pd.read_csv('C:/Users/atamb/Box/Stream Team Dream Team/allDailyFlowData.csv',encoding="ISO-8859-1")
+df_allDailyFlow = pd.read_csv('C:/Users/atamb/Box/Stream Team Dream Team/allDailyFlowData.csv',encoding="ISO-8859-1")
+
+df_catchment = pd.read_csv('C:/Users/atamb/Box/Stream Team Dream Team/catchmentMetadata.csv',encoding="ISO-8859-1")
+
 
 Figure 1(03/23)
 
@@ -110,15 +122,18 @@ Figure 2(03/08/23)
 Check home.py for code:
 https://github.com/RepTambe/StreamTeam/blob/main/home.py
 
-Figure 2 is line 211
+Home.py and the figures:
+To see a certain plot, uncomment the line, comment out the other plots
 
-Figure 3 is line 222
+    Figure 2 is line 211
 
-Area plot is 229
+    Figure 3 is line 222
 
-Continents is 233
+    Area plot is 229
 
-To see a certain plot, uncomment the line, comment out the other plots. 
+    Continents is 233
+
+
 
 
 
