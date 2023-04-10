@@ -67,17 +67,26 @@ Figure 1(03/23)
 Check Figure_1.py for code:
 https://github.com/RepTambe/StreamTeam/blob/main/figure_1.py
 
-![image](https://user-images.githubusercontent.com/56054621/230137536-8b6f8090-89c2-49bc-bb32-c337eeca6b80.png)
-
+For figure 1:
+When you run the code you'll get the year one plot first. Then when you exit out of it, year 2 will pop up. 
+<img width="1472" alt="Screen Shot 2023-04-10 at 9 46 37 AM" src="https://user-images.githubusercontent.com/56054621/230939212-3dee4110-4d64-4e5e-894c-1efbe0c613df.png">
 
 Figure 2(03/08/23)
 
+![image](https://user-images.githubusercontent.com/56054621/230939583-cedfb843-2dd4-49f5-afe9-5c3310c26ebf.png)
+
 Check Figure_2.py for code:
-https://github.com/RepTambe/StreamTeam/blob/main/figure_2.py
+
+Figure 2 is line 211
+
+Figure 3 is line 222
+
+Area plot is 229
+
+Continents is 233
+
+To see a certain plot, uncomment the line, comment out the other plots. 
 
 
-![image](https://user-images.githubusercontent.com/56054621/230138439-e754f275-2344-45da-8620-3477b13fb246.png)
 
-
-Figure 3(04/01/23)
 
