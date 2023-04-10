@@ -2,7 +2,7 @@
 
 Outline(3/19)
 
-Introduction
+Introduction:
 
 Rivers and streams have maintained and modified ecosystems by mediating ecosystem structure and facilitating nutrient cycling for billions of years, but in recent years, water sources have become increasingly controlled and altered by humans, such as building dams and climate change.
 
@@ -33,6 +33,9 @@ world (or US) map marking percent change of runoff ratios per location
 
 -Empirical distribution for the prob of local spatial similarity in streamflow metric
 
+
+
+#########################################################################################
 
 Repoducibility(04/05)
 
@@ -102,7 +105,9 @@ Here's an example:
 
 df_allDailyFlow = pd.read_csv('C:/Users/atamb/Box/Stream Team Dream Team/allDailyFlowData.csv',encoding="ISO-8859-1")
 
-df_catchment = pd.read_csv('C:/Users/atamb/Box/Stream Team Dream Team/catchmentMetadata.csv',encoding="ISO-8859-1")
+df_evapotranspiration = sorted(glob.glob('C:/Users/atamb/Box/Stream Team Dream Team/Basin_ET_TS_for_model/*.csv'))
+
+#########################################################################################
 
 
 Figure 1(03/23)
@@ -114,6 +119,9 @@ https://github.com/RepTambe/StreamTeam/blob/main/figure_1.py
 For figure 1:
 When you run the code you'll get the year one plot first. Then when you exit out of it, year 2 will pop up. 
 <img width="1472" alt="Screen Shot 2023-04-10 at 9 46 37 AM" src="https://user-images.githubusercontent.com/56054621/230939212-3dee4110-4d64-4e5e-894c-1efbe0c613df.png">
+
+
+#########################################################################################
 
 Figure 2(03/08/23)
 
