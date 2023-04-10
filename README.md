@@ -52,10 +52,11 @@ Once you get the app download, check your file explorer for the box tab. Click t
 To get the files to your IDE of choice, you have to copy the direct path from file Explorer.
 From the file explorer, right click on the file you want
 Click on properties.
-Properties contains the direct path minus the file name. You will need to copy the direct path and write in the file name when you want to read the csv's in your code. 
+Properties contains the direct path minus the file name. You will need to copy the direct path and write in the file name when you want to read the csv's in your code.
+Make sure you swith the backslashes to forward slahes. 
 Here's an example:
 
-df_catchment = pd.read_csv('C:/Users/atamb/Box/Stream Team Dream Team/catchmentMetadata.csv',encoding="ISO-8859-1")
+df_catchment = pd.read_csv('C:/Users/atamb/Box/Stream Team Dream Team/allDailyFlowData.csv',encoding="ISO-8859-1")
 
 Here's a picture of what it should look like when you click properties. 
 ![image](https://user-images.githubusercontent.com/56054621/230815828-539eb2cd-8214-4cf5-83ec-7808b8160876.png)
