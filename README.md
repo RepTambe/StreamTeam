@@ -29,22 +29,25 @@ Repoducibility(04/05)
 
 Methods:
 
-Retrieve data from box drive. The data is contained in databases and can be fetched from the links provided:
 
 
-AllData- Link to all files on Box
+The data is contained in BoxDrive. The files are a few GBS. To avoid downloading them to your computer, we will use the Box app instead.
+
+To get the files on your loacl machine follow these steps:
+
+1.
+follow this link to get access to the files from your box account. 
 https://byu.box.com/s/oqvmb58twh5c84xbvg7egecnlhdw8syr
 
+2.
+Once the files are shared on your Box, download the box app onto your personal computer using this link. Make sure you select the correct operating system of your device.
+https://www.box.com/resources/downloads
 
+3.
+Once you get the app download, check your file explorer for the box tab. Click the tab and the folder named "Stream Team Dream Team" should be present. Click the folder and the databases will be there. This image below is an example of the boxapp in windows file explorer.
 
-DailyFLowData- the data that gives us all the daily flow from the streams over a course of 20 years. Some values missing. https://byu.box.com/s/zdygqtfaf90r8j9dvyzejhb1mp2hplvm
+![image](https://user-images.githubusercontent.com/56054621/230814321-1ea02fab-b1ec-4b22-a50c-51216842cbd3.png)
 
-CatchmentMetaData- Contains the stream characteristics we test against. 
-https://byu.box.com/s/ee0lmnwutzs071x4utcot9q21qp31rh6
-
-
-Precipitation files- contains preciaption numbers for streams. Some values missing.
-https://byu.box.com/s/dtzlt4ma2vuyowqws290imb1xzr1fvaq
 
 
 Figure 1(03/23)
